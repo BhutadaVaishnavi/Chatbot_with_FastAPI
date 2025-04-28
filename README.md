@@ -1,4 +1,5 @@
-Project Overview
+Project Overview: 
+(API's for deployment)
 
 This project creates a FastAPI server that uses LangChain and Ollama models to generate short essays, poems for kids, and allow chatting with an AI model.
 
