@@ -1,4 +1,5 @@
 Project Overview
+
 This project creates a FastAPI server that uses LangChain and Ollama models to generate short essays, poems for kids, and allow chatting with an AI model.
 
 FastAPI:
@@ -14,4 +15,4 @@ To load environment variables securely (like API keys or model configs) from a .
 Uvicorn:
 A lightning-fast ASGI server to run the FastAPI app.
 
-he server uses langserve to easily add AI model routes, and ChatOllama (configured for models like llama3) to handle the text generation tasks. Environment variables are managed securely with python-dotenv, and the application runs using uvicorn.
+The server uses langserve to easily add AI model routes, and ChatOllama (configured for models like llama3) to handle the text generation tasks. Environment variables are managed securely with python-dotenv, and the application runs using uvicorn.
